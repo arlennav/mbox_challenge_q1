@@ -1,0 +1,63 @@
+From nobody Mon Sep 17 00:00:00 2001
+From: A (zzz)
+      U
+      Thor
+      <a.u.thor@example.com> (Comment)
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: [PATCH] a commit.
+
+Here is a patch from A U Thor.
+
+---
+ foo |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+diff --git a/foo b/foo
+index 9123cdc..918dcf8 100644
+--- a/foo
++++ b/foo
+@@ -1 +1 @@
+-Fri Jun  9 00:44:04 PDT 2006
++Fri Jun  9 00:44:13 PDT 2006
+-- 
+1.4.0.g6f2b
+
+From nobody Mon Sep 17 00:00:00 2001
+From: A U Thor <a.u.thor@example.com>
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: [PATCH] another patch
+
+Here is a patch from A U Thor.  This addresses the issue raised in the
+message:
+
+From: Nit Picker <nit.picker@example.net>
+Subject: foo is too old
+Message-Id: <nitpicker.12121212@example.net>
+
+Hopefully this would fix the problem stated there.
+
+
+I have included an extra blank line above, but it does not have to be
+stripped away here, along with the               		   
+whitespaces at the end of the above line.  They are expected to be squashed
+when the message is made into a commit log by stripspace,
+Also, there are three blank lines after this paragraph,
+two truly blank and another full of spaces in between.
+
+            
+
+Hope this helps.
+
+---
+ foo |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+diff --git a/foo b/foo
+index 9123cdc..918dcf8 100644
+--- a/foo
++++ b/foo
+@@ -1 +1 @@
+-Fri Jun  9 00:44:04 PDT 2006
++Fri Jun  9 00:44:13 PDT 2006
+-- 
+1.4.0.g6f2b

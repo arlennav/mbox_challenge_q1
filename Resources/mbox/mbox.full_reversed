@@ -1,0 +1,2233 @@
+From nobody Mon Sep 17 00:00:00 2001
+From: A (zzz)
+      U
+      Thor
+      <a.u.thor@example.com> (Comment)
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: [PATCH] a commit.
++Fri Jun  9 00:44:13 PDT 2006
+-Fri Jun  9 00:44:04 PDT 2006
+@@ -1 +1 @@
++++ b/foo
+--- a/foo
+index 9123cdc..918dcf8 100644
+diff --git a/foo b/foo
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+ foo |    2 +-
+---
+
+Here is a patch from A U Thor.
+
+--
+1.4.0.g6f2b
+
+From nobody Mon Sep 17 00:00:00 2001
+From: A U Thor <a.u.thor@example.com>
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: [PATCH] another patch
++Fri Jun  9 00:44:13 PDT 2006
+-Fri Jun  9 00:44:04 PDT 2006
+@@ -1 +1 @@
++++ b/foo
+--- a/foo
+index 9123cdc..918dcf8 100644
+diff --git a/foo b/foo
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+ foo |    2 +-
+---
+
+Hope this helps.
+
+            
+
+two truly blank and another full of spaces in between.
+Also, there are three blank lines after this paragraph,
+when the message is made into a commit log by stripspace,
+whitespaces at the end of the above line.  They are expected to be squashed
+stripped away here, along with the               		   
+I have included an extra blank line above, but it does not have to be
+
+
+Hopefully this would fix the problem stated there.
+
+Message-Id: <nitpicker.12121212@example.net>
+Subject: foo is too old
+From: Nit Picker <nit.picker@example.net>
+
+message:
+Here is a patch from A U Thor.  This addresses the issue raised in the
+
+--
+1.4.0.g6f2b
+
+From nobody Mon Sep 17 00:00:00 2001
+From: Junio C Hamano <junio@kernel.org>
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: re: [PATCH] another patch
++Fri Jun  9 00:44:13 PDT 2006
+-Fri Jun  9 00:44:04 PDT 2006
+@@ -1 +1 @@
++++ b/foo
+--- a/foo
+index 9123cdc..918dcf8 100644
+diff --git a/foo b/foo
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+ foo |    2 +-
+---
+
+Hopefully this would fix the problem stated there.
+
+Message-Id: <nitpicker.12121212@example.net>
+Subject: foo is too old
+From: Nit Picker <nit.picker@example.net>
+
+message:
+Here is a patch from A U Thor.  This addresses the issue raised in the
+
+Subject: [PATCH] third patch
+From: A U Thor <a.u.thor@example.com>
+
+--
+1.4.0.g6f2b
+
+From nobody Sat Aug 27 23:07:49 2005
+Path: news.gmane.org!not-for-mail
+Message-ID: <20050721.091036.01119516.yoshfuji@linux-ipv6.org>
+From: YOSHIFUJI Hideaki / =?ISO-2022-JP?B?GyRCNUhGIzFRTEAbKEI=?= 
+	<yoshfuji@linux-ipv6.org>
+Newsgroups: gmane.comp.version-control.git
+Subject: [PATCH 1/2] GIT: Try all addresses for given remote name
++Fri Jun  9 00:44:13 PDT 2006
+-Fri Jun  9 00:44:04 PDT 2006
+@@ -1 +1 @@
++++ b/foo
+--- a/foo
+index 9123cdc..918dcf8 100644
+diff --git a/foo b/foo
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+ foo |    2 +-
+---
+
+Here is a patch from A U Thor.
+
+Subject: [PATCH] a commit.
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+ <Pine.LNX.4.640.0050@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0049@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0048@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0047@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0046@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0045@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0044@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0043@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0042@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0041@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0040@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0039@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0038@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0037@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0036@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0035@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0034@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0033@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0032@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0031@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0030@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0029@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0028@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0027@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0026@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0025@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0024@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0023@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0022@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0021@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0020@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0019@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0018@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0017@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0016@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0015@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0014@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0013@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0012@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0011@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0010@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0009@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0008@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0007@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0006@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0005@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0004@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0003@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0002@woody.linux-foundation.org>
+References: <Pine.LNX.4.640.0001@woody.linux-foundation.org>
+From: A U Thor <a.u.thor@example.com>
+From nobody Mon Sep 17 00:00:00 2001
+
+More majordomo info at  http://vger.kernel.org/majordomo-info.html
+the body of a message to majordomo@vger.kernel.org
+To unsubscribe from this list: send the line "unsubscribe git" in
+-
+David K=E5gedal
+--=20
+
+ 		push(@old,$fn);
+ 		$fn =3D~ s#^/+##;
+ 		my $fn =3D $1;
+\(DEAD\)\s*$/) {
++	} elsif($state =3D=3D 9 and /^\s+(\S+):\d+(?:\.\d+)+->(\d+(?:\.\d+)+)=
+DEAD\)\s*$/) {
+-	} elsif($state =3D=3D 9 and /^\s+(\S+):\d(?:\.\d+)+->(\d(?:\.\d+)+)\(=
+ 		push(@new,[$mode, $sha, $fn]); # may be resurrected!
+ 		my $mode =3D pmode($cvs->{'mode'});
+ 		unlink($tmpname);
+@@ -691,7 +691,7 @@ while(<CVS>) {
+ 	$self->{'socketo'}->flush();
+ 	$self->{'socketo'}->write("valid-requests\n");
+=20
+de M Mbinary E Checked-in Created Updated Merged Removed\n");
++	$self->{'socketo'}->write("Valid-responses ok error Valid-requests Mo=
+de M Mbinary E F Checked-in Created Updated Merged Removed\n");
+-	$self->{'socketo'}->write("Valid-responses ok error Valid-requests Mo=
+ 	# Trial and error says that this probably is the minimum set
+=20
+ 	$self->{'socketo'}->write("Root $repo\n");
+@@ -190,7 +190,7 @@ sub conn {
++++ b/git-cvsimport-script
+--- a/git-cvsimport-script
+diff --git a/git-cvsimport-script b/git-cvsimport-script
+ If '-v' is specified, the script reports what it is doing.
+ ------
+ OUTPUT
++
++        Pass the timestamp fuzz factor to cvsps.
++-z <fuzz>::
+=20
+ 	Print a short usage message and exit.
+ -h::
+@@ -57,6 +61,9 @@ OPTIONS
+=20
+ 	If you need to pass multiple options, separate them with a comma.
+=20
++	The options '-u' and '-A' are implicit and should not be used here.
+-	The options '-x' and '-A' are implicit and should not be used here.
+ 	Additional options for cvsps.
+ -p <options-for-cvsps>::
+=20
+@@ -44,7 +48,7 @@ OPTIONS
+ 	ensures the working directory and cache remain untouched and will
+ 	Import-only: don't perform a checkout after importing.  This option
+ -i::
++
++        exist, it will be created.  Default is the current directory.
++        The GIT repository to import to.  If the directory doesn't
++-C <target-dir>::
+=20
+ 	are supported.
+ 	currently, only the :local:, :ext: and :pserver: access methods=20
+@@ -29,6 +29,10 @@ OPTIONS
++++ b/Documentation/git-cvsimport-script.txt
+--- a/Documentation/git-cvsimport-script.txt
+-cvsimport-script.txt
+diff --git a/Documentation/git-cvsimport-script.txt b/Documentation/git=
+50452f9c0c2df1f04d83a26266ba704b13861632
+
+ 2 files changed, 10 insertions(+), 3 deletions(-)
+ git-cvsimport-script                   |    4 ++--
+ Documentation/git-cvsimport-script.txt |    9 ++++++++-
+
+---
+Signed-off-by: David K=E5gedal <davidk@lysator.liu.se>
+
+actual flags.
+I also updated the documentation for that script to correspond to
+
+although they were not handled.
+The second was that it was asking the CVS server for "F" messages,
+
+primary revision number.
+The first was that it didn't handle removed files with a multi-digit
+
+from importing a big CVS repository.
+The git-cvsimport-script had a copule of small bugs that prevented me
+
+Original-X-From: git-owner@vger.kernel.org Mon Aug 15 20:24:05 2005
+Cc: "Junio C. Hamano" <junkio@cox.net>
+NNTP-Posting-Date: Mon, 15 Aug 2005 18:24:07 +0000 (UTC)
+X-Complaints-To: usenet@sea.gmane.org
+X-Trace: sea.gmane.org 1124130247 31839 80.91.229.2 (15 Aug 2005 18:24:07 GMT)
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: text/plain; charset=ISO8859-1
+Mime-Version: 1.0
+NNTP-Posting-Host: main.gmane.org
+Approved: news@gmane.org
+Lines: 83
+Date: Mon, 15 Aug 2005 20:18:25 +0200
+Subject: [PATCH] Fixed two bugs in git-cvsimport-script.
+Newsgroups: gmane.comp.version-control.git
+From: =?ISO8859-1?Q?David_K=E5gedal?= <davidk@lysator.liu.se>
+Message-ID: <u5tacjjdpxq.fsf@lysator.liu.se>
+Path: news.gmane.org!not-for-mail
+From nobody Sat Aug 27 23:07:49 2005
+
+GPG-FP  : 9022 65EB 1ECF 3AD1 0BDF  80D8 4807 F894 E062 0EEA
+YOSHIFUJI Hideaki @ USAGI Project  <yoshfuji@linux-ipv6.org>
+-- 
+
+ 	packet_write(sockfd, "%s %s\n", prog, path);
+ 	fd[1] = sockfd;
+ 	fd[0] = sockfd;
++
+-		die("unable to connect (%s)", strerror(errno));
+-	if (connect(sockfd, (void *)&addr, sizeof(addr)) < 0)
+ 		die("unable to create socket (%s)", strerror(errno));
+ 	if (sockfd < 0)
+-	sockfd = socket(PF_INET, SOCK_STREAM, IPPROTO_IP);
+ 
++	freeaddrinfo(ai0);
+-	((struct sockaddr_in *)&addr)->sin_port = htons(port);
+-	lookup_host(host, &addr);
+ 
+ 	}
++		break;
+ 		}
++			continue;
++			sockfd = -1;
++			close(sockfd);
++		if (connect(sockfd, ai->ai_addr, ai->ai_addrlen) < 0) {
++			continue;
++		if (sockfd < 0)
++		sockfd = socket(ai->ai_family, ai->ai_socktype, ai->ai_protocol);
++	for (ai0 = ai; ai; ai = ai->ai_next) {
++
++		die("Unable to look up %s (%s)", host, gai_strerror(gai));
++	if (gai)
++	gai = getaddrinfo(host, port, &hints, &ai);
++
++	hints.ai_protocol = IPPROTO_TCP;
++	hints.ai_socktype = SOCK_STREAM;
++	memset(&hints, 0, sizeof(hints));
++
++		port = colon + 1;
++	if (colon)
++
++	colon = strchr(end, ':');
++		end = host;
++	} else
++			end = host;
++		} else
++			host++;
++			end++;
++			*end = 0;
++		if (end) {
++		end = strchr(host + 1, ']');
++	if (host[0] == '[') {
++
++	int gai;
++	struct addrinfo hints, *ai0, *ai;
++	char *port = STR(DEFAULT_GIT_PORT);
++	char *colon, *end;
++	int sockfd = -1;
+-			port = n;
+-			*colon = 0;
+-		if (colon[1] && !*end) {
+-		unsigned long n = strtoul(colon+1, &end, 0);
+-		char *end;
+-	if (colon) {
+-	colon = strchr(host, ':');
+-
+-	char *colon;
+-	int port = DEFAULT_GIT_PORT, sockfd;
+-	struct sockaddr addr;
+ {
+ static int git_tcp_connect(int fd[2], const char *prog, char *host, char *path)
+ 
++#define STR(s)	STR_(s)
++#define STR_(s)	# s
+-}
+-	freeaddrinfo(res);
+-	*in = *res->ai_addr;
+-		die("Unable to look up %s (%s)", host, gai_strerror(ret));
+-	if (ret)
+-	ret = getaddrinfo(host, NULL, NULL, &res);
+-
+-	int ret;
+-	struct addrinfo *res;
+-{
+-static void lookup_host(const char *host, struct sockaddr *in)
+ 
+ }
+ 	die("I don't handle protocol '%s'", name);
+@@ -96,42 +96,57 @@ static enum protocol get_protocol(const 
++++ b/connect.c
+--- a/connect.c
+diff --git a/connect.c b/connect.c
+
+Signed-of-by: Hideaki YOSHIFUJI <yoshfuji@linux-ipv6.org>
+
+Also supports IPv6.
+Try all addresses for given remote name until it succeeds.
+
+Hello.
+
+NNTP-Posting-Date: Thu, 21 Jul 2005 13:10:34 +0000 (UTC)
+X-Complaints-To: usenet@sea.gmane.org
+X-Trace: sea.gmane.org 1121951434 29350 80.91.229.2 (21 Jul 2005 13:10:34 GMT)
+Content-Transfer-Encoding: 7bit
+Content-Type: Text/Plain; charset=us-ascii
+Mime-Version: 1.0
+NNTP-Posting-Host: main.gmane.org
+Approved: news@gmane.org
+Organization: USAGI/WIDE Project
+Lines: 99
+Date: Thu, 21 Jul 2005 09:10:36 -0400 (EDT)
+--
+1.4.0.g6f2b
+
+From nobody Mon Sep 17 00:00:00 2001
+From: A U Thor <a.u.thor@example.com>
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: [PATCH] another patch
+
+
++content
+@@ -0,0 +1 @@
++++ b/foo
+--- a/foo
+index e69de29..d95f3ad 100644
+diff --git a/foo b/foo
+---
+
+and some content
+
+Date: bogus
+
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: check bogus body header (date)
+From: A U Thor <a.u.thor@example.com>
+From nobody Mon Sep 17 00:00:00 2001
+
++content
+@@ -0,0 +1 @@
++++ b/foo
+--- a/foo
+index e69de29..d95f3ad 100644
+diff --git a/foo b/foo
+---
+  - of stuff
+  - a list
+From: bogosity
+
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: check bogus body header (from)
+From: A U Thor <a.u.thor@example.com>
+From nobody Mon Sep 17 00:00:00 2001
+1.6.4.1
+-- 
+ 		convert_to_utf8(line, charset.buf);
+ 	if (metainfo_charset)
+ 	/* normalize the log message to UTF-8. */
++
++	}
++		return 0;
++		still_looking = 1;
++		fseek(cmitmsg, 0L, SEEK_SET);
++	if (scissors(line)) {
+ 
+ 	}
+ 			return 0;
++		if (still_looking)
++		still_looking = check_header(line, s_hdr_data, 0);
+-		if ((still_looking = check_header(line, s_hdr_data, 0)) != 0)
+ 			return 0;
+ 		if (!line->len)
+ 		strbuf_ltrim(line);
+@@ -723,10 +751,17 @@ static int handle_commit_msg(struct strbuf *line)
+ 	static int still_looking = 1;
+ {
+ static int handle_commit_msg(struct strbuf *line)
++
++}
++	return scissors_dashes_seen == 03;
++	}
++		break;
++		/* everything else --- not scissors */
++		}
++			continue;
++			i += 7;
++		if (i + 7 < len && !memcmp(buf + i, "cut here", 8)) {
++		}
++			continue;
++			i++;
++			scissors_dashes_seen |= 01;
++		if (i + 1 < len && !memcmp(buf + i, ">8", 2)) {
++		}
++			continue;
++			scissors_dashes_seen |= 02;
++		if (buf[i] == '-') {
++			continue;
++		if (isspace(buf[i]))
++	for (i = 0; i < len; i++) {
++
++	const char *buf = line->buf;
++	int scissors_dashes_seen = 0;
++	size_t i, len = line->len;
++{
++static int scissors(const struct strbuf *line)
+ 
+ }
+ 	return 0;
+@@ -712,6 +712,34 @@ static inline int patchbreak(const struct strbuf *line)
++++ b/builtin-mailinfo.c
+--- a/builtin-mailinfo.c
+index b0b5d8f..461c47e 100644
+diff --git a/builtin-mailinfo.c b/builtin-mailinfo.c
+
+ 1 files changed, 36 insertions(+), 1 deletions(-)
+ builtin-mailinfo.c |   37 ++++++++++++++++++++++++++++++++++++-
+---
+Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+everything before it in the message body.
+This teaches mailinfo the scissors -- >8 -- mark; the command ignores
+
+From: Junio C Hamano <gitster@pobox.com>
+Subject: [PATCH] Teach mailinfo to ignore everything before -- >8 -- mark
+
+ - - >8 - - please remove everything above this line - - >8 - -
+ This line is not a scissors mark -- >8 -- but talks about it.
+
+And then we will see the scissors.
+
+Subject: [PATCH] BLAH TWO
+
+in this part of the message.
+discussing related and unrelated things around >8 scissors mark
+In real life, we will see a discussion that inspired this patch
+
+Subject: [PATCH] BLAH ONE
+
+Subject: Why doesn't git-am does not like >8 scissors mark?
+Date: Thu, 20 Aug 2009 17:18:22 -0700
+From: Junio Hamano <junkio@cox.net>
+From nobody Mon Sep 17 00:00:00 2001
+
+Subject: [PATCH] a patch
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+From: <a.u.thor@example.com> (A U Thor)
+From nobody Mon Sep 17 00:00:00 2001
+1.5.6.5
+-- 
+ #. на своей машине: отредактировать /etc/sudoers (команда ``visudo``) примерно следующим образом::
+ #. на машине dinar: добавить свой открытый ssh-ключ в authorized_keys2 пользователя ddev
+ 
++   - python-docutils
+-   - docutils
+    - imagemagick
+    - cython
+    - sox
+@@ -128,7 +128,7 @@
+    - libtool
+    - python-pyrex
+    - dia
++   - texlive-latex-extra
++   - texlive-lang-cyrillic
+-   - textlive-latex-extra
+-   - textlive-lang-cyrillic
+    - latex-make
+    - libusplash-dev
+    - libxv-dev
+@@ -119,8 +119,8 @@
++++ b/howto/build_navy.txt
+--- a/howto/build_navy.txt
+index 3fd3afb..0ee807e 100644
+diff --git a/howto/build_navy.txt b/howto/build_navy.txt
+
+ 1 files changed, 3 insertions(+), 3 deletions(-)
+ howto/build_navy.txt |    6 +++---
+---
+Signed-off-by: Dmitriy Blinov <bda@mnsspb.ru>
+
+python-docutils. В то время как сам rest2web не нужен.
+Действительно, оказалось, что rest2web вытягивает за собой
+
+docutils заменён на python-docutils
+textlive-* исправлены на texlive-*
+
+	=?utf-8?b?0YHQsdC+0YDQutC4?=
+	=?utf-8?b?0LrQtdGC0L7QsiDQvdC10L7QsdGF0L7QtNC40LzRi9GFINC00LvRjyA=?=
+	=?utf-8?b?0JjQt9C80LXQvdGR0L0g0YHQv9C40YHQvtC6INC/0LA=?=
+Subject: [Navy-patches] [PATCH]
+Content-Transfer-Encoding: 8bit
+  charset=utf-8
+Content-Type: text/plain;
+MIME-Version: 1.0
+X-Mailer: git-send-email 1.5.6.5
+Message-Id: <1226501681-24923-1-git-send-email-bda@mnsspb.ru>
+Date: Wed, 12 Nov 2008 17:54:41 +0300
+To: navy-patches@dinar.mns.mnsspb.ru
+From: Dmitriy Blinov <bda@mnsspb.ru>
+From bda@mnsspb.ru Wed Nov 12 17:54:41 2008
+
+--=-=-=--
+
+1.6.0.rc2
+--=20
+ 				goto handle_body_out;
+ 			if (!handle_boundary())
+=20
++				handle_filter(&prev);
++			if (prev.len)
+-				handle_filter(&line);
+-			if (line.len)
+ 			/* flush any leftover */
+ 		if (*content_top && is_multipart_boundary(&line)) {
+ 		/* process any boundary lines */
+@@ -758,8 +758,8 @@ static void handle_body(void)
++++ b/builtin-mailinfo.c
+--- a/builtin-mailinfo.c
+index 3e5fe51..aabfe5c 100644
+diff --git a/builtin-mailinfo.c b/builtin-mailinfo.c
+
+ builtin-mailinfo.c  |    4 ++--
+---
+its second line is here.
+Here comes a commit log message, and
+
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=ISO8859-15
+--=-=-=
+
+Content-Type: multipart/mixed; boundary="=-=-="
+MIME-Version: 1.0
+Subject: [PATCH 3/3 v2] Xyzzy
+From: A U Thor <a.u.thor@example.com>
+Date: Fri, 8 Aug 2008 13:08:37 +0200 (CEST)
+From nobody Fri Aug  8 22:24:03 2008
+
+1.5.6.2.455.g1efb2
+-- 
+ 				}
+ 					return 1;
+ 				if (! handle_header(line, hdr_data[i], 0)) {
++			if (!memcmp("Subject", header[i], 7)) {
+-			if (!memcmp("Subject: ", header[i], 9)) {
+ 		for (i = 0; header[i]; i++) {
+ 	if (!memcmp("[PATCH]", line, 7) && isspace(line[7])) {
+ 		return 1;
+@@ -334,7 +334,7 @@ static int check_header(char *line, unsigned linesize, char **hdr_data, int over
++++ b/builtin-mailinfo.c
+--- a/builtin-mailinfo.c
+index 962aa34..2d1520f 100644
+diff --git a/builtin-mailinfo.c b/builtin-mailinfo.c
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+ builtin-mailinfo.c |    2 +-
+---
+Signed-off-by: Junio C Hamano <gitster@pobox.com>
+Signed-off-by: Lukas Sandström <lukass@etek.chalmers.se>
+
+memcmp("Subject: ", header[i], 7) will never match.
+"Subject: " isn't in the static array "header", and thus
+
+[PATCH] git-mailinfo: Fix getting the subject from the body
+
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset=UTF-8
+MIME-Version: 1.0
+Subject: Re: discussion that lead to this patch
+Date: Thu, 10 Jul 2008 23:41:33 +0200
+From: =?UTF-8?q?Lukas=20Sandstr=C3=B6m?= <lukass@etek.chalmers.se>
+From b9704a518e21158433baa2cc2d591fea687967f6 Mon Sep 17 00:00:00 2001
+ 2. When the environment variable 'GIT_EXTERNAL_DIFF' is set, the
+=20
+=20
++      GIT_DIFF_OPTS=3D-c git-diff-index -p HEAD
+-      GIT_DIFF_OPTS=3D-c git-diff-index -p $(cat .git/HEAD)
+=20
+ prefer context diff:
+ environment variable 'GIT_DIFF_OPTS'.  For example, if you
+@@ -81,7 +81,7 @@ The "diff" formatting options can be customized via the
++++ b/Documentation/diff-format.txt
+--- a/Documentation/diff-format.txt
+index b426a14..97756ec 100644
+diff --git a/Documentation/diff-format.txt b/Documentation/diff-format.txt
+
+Subject: [PATCH] updates=0A=0AThis is to fix diff-format documentation.
+=0A=0AFrom: F U Bar <f.u.bar@example.com>
+
+Content-Transfer-Encoding: Quoted-Printable
+Content-Type: Text/Plain; charset=us-ascii
+Mime-Version: 1.0
+Date: Mon, 17 Sep 2001 00:00:00 +0900
+From: A U Thor <a.u.thor@example.com>
+From nobody Mon Sep 17 00:00:00 2001
+
+Hey you forgot the patch!
+
+>Here is an empty patch from A U Thor.
+Subject: [PATCH] another patch
+From: A U Thor <a.u.thor@example.com>
+
+Subject: re: [PATCH] another patch
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+From: Junio C Hamano <junio@kernel.org>
+From nobody Mon Sep 17 00:00:00 2001
+
+Here is an empty patch from A U Thor.
+From nobody Mon Sep 17 00:00:00 2001
+From: A (zzz)
+      U
+      Thor
+      <a.u.thor@example.com> (Comment)
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: [PATCH] a commit.
++Fri Jun  9 00:44:13 PDT 2006
+-Fri Jun  9 00:44:04 PDT 2006
+@@ -1 +1 @@
++++ b/foo
+--- a/foo
+index 9123cdc..918dcf8 100644
+diff --git a/foo b/foo
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+ foo |    2 +-
+---
+
+Here is a patch from A U Thor.
+
+--
+1.4.0.g6f2b
+
+From nobody Mon Sep 17 00:00:00 2001
+From: A U Thor <a.u.thor@example.com>
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: [PATCH] another patch
++Fri Jun  9 00:44:13 PDT 2006
+-Fri Jun  9 00:44:04 PDT 2006
+@@ -1 +1 @@
++++ b/foo
+--- a/foo
+index 9123cdc..918dcf8 100644
+diff --git a/foo b/foo
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+ foo |    2 +-
+---
+
+Hope this helps.
+
+            
+
+two truly blank and another full of spaces in between.
+Also, there are three blank lines after this paragraph,
+when the message is made into a commit log by stripspace,
+whitespaces at the end of the above line.  They are expected to be squashed
+stripped away here, along with the               		   
+I have included an extra blank line above, but it does not have to be
+
+
+Hopefully this would fix the problem stated there.
+
+Message-Id: <nitpicker.12121212@example.net>
+Subject: foo is too old
+From: Nit Picker <nit.picker@example.net>
+
+message:
+Here is a patch from A U Thor.  This addresses the issue raised in the
+
+--
+1.4.0.g6f2bFrom nobody Mon Sep 17 00:00:00 2001
+From: A (zzz)
+      U
+      Thor
+      <a.u.thor@example.com> (Comment)
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: [PATCH] a commit.
++Fri Jun  9 00:44:13 PDT 2006
+-Fri Jun  9 00:44:04 PDT 2006
+@@ -1 +1 @@
++++ b/foo
+--- a/foo
+index 9123cdc..918dcf8 100644
+diff --git a/foo b/foo
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+ foo |    2 +-
+---
+
+Here is a patch from A U Thor.
+
+--
+1.4.0.g6f2b
+
+From nobody Mon Sep 17 00:00:00 2001
+From: A U Thor <a.u.thor@example.com>
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: [PATCH] another patch
++Fri Jun  9 00:44:13 PDT 2006
+-Fri Jun  9 00:44:04 PDT 2006
+@@ -1 +1 @@
++++ b/foo
+--- a/foo
+index 9123cdc..918dcf8 100644
+diff --git a/foo b/foo
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+ foo |    2 +-
+---
+
+Hope this helps.
+
+            
+
+two truly blank and another full of spaces in between.
+Also, there are three blank lines after this paragraph,
+when the message is made into a commit log by stripspace,
+whitespaces at the end of the above line.  They are expected to be squashed
+stripped away here, along with the               		   
+I have included an extra blank line above, but it does not have to be
+
+
+Hopefully this would fix the problem stated there.
+
+Message-Id: <nitpicker.12121212@example.net>
+Subject: foo is too old
+From: Nit Picker <nit.picker@example.net>
+
+message:
+Here is a patch from A U Thor.  This addresses the issue raised in the
+
+--
+1.4.0.g6f2b
+
+From nobody Mon Sep 17 00:00:00 2001
+From: Junio C Hamano <junio@kernel.org>
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: re: [PATCH] another patch
++Fri Jun  9 00:44:13 PDT 2006
+-Fri Jun  9 00:44:04 PDT 2006
+@@ -1 +1 @@
++++ b/foo
+--- a/foo
+index 9123cdc..918dcf8 100644
+diff --git a/foo b/foo
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+ foo |    2 +-
+---
+
+Hopefully this would fix the problem stated there.
+
+Message-Id: <nitpicker.12121212@example.net>
+Subject: foo is too old
+From: Nit Picker <nit.picker@example.net>
+
+message:
+Here is a patch from A U Thor.  This addresses the issue raised in the
+
+Subject: [PATCH] third patch
+From: A U Thor <a.u.thor@example.com>
+
+--
+1.4.0.g6f2b
+
+From nobody Sat Aug 27 23:07:49 2005
+Path: news.gmane.org!not-for-mail
+Message-ID: <20050721.091036.01119516.yoshfuji@linux-ipv6.org>
+From: YOSHIFUJI Hideaki / =?ISO-2022-JP?B?GyRCNUhGIzFRTEAbKEI=?= 
+	<yoshfuji@linux-ipv6.org>
+Newsgroups: gmane.comp.version-control.git
+Subject: [PATCH 1/2] GIT: Try all addresses for given remote name
++Fri Jun  9 00:44:13 PDT 2006
+-Fri Jun  9 00:44:04 PDT 2006
+@@ -1 +1 @@
++++ b/foo
+--- a/foo
+index 9123cdc..918dcf8 100644
+diff --git a/foo b/foo
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+ foo |    2 +-
+---
+
+Here is a patch from A U Thor.
+
+Subject: [PATCH] a commit.
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+ <Pine.LNX.4.640.0050@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0049@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0048@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0047@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0046@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0045@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0044@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0043@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0042@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0041@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0040@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0039@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0038@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0037@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0036@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0035@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0034@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0033@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0032@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0031@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0030@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0029@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0028@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0027@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0026@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0025@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0024@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0023@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0022@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0021@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0020@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0019@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0018@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0017@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0016@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0015@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0014@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0013@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0012@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0011@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0010@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0009@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0008@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0007@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0006@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0005@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0004@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0003@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0002@woody.linux-foundation.org>
+References: <Pine.LNX.4.640.0001@woody.linux-foundation.org>
+From: A U Thor <a.u.thor@example.com>
+From nobody Mon Sep 17 00:00:00 2001
+
+More majordomo info at  http://vger.kernel.org/majordomo-info.html
+the body of a message to majordomo@vger.kernel.org
+To unsubscribe from this list: send the line "unsubscribe git" in
+-
+David K=E5gedal
+--=20
+
+ 		push(@old,$fn);
+ 		$fn =3D~ s#^/+##;
+ 		my $fn =3D $1;
+\(DEAD\)\s*$/) {
++	} elsif($state =3D=3D 9 and /^\s+(\S+):\d+(?:\.\d+)+->(\d+(?:\.\d+)+)=
+DEAD\)\s*$/) {
+-	} elsif($state =3D=3D 9 and /^\s+(\S+):\d(?:\.\d+)+->(\d(?:\.\d+)+)\(=
+ 		push(@new,[$mode, $sha, $fn]); # may be resurrected!
+ 		my $mode =3D pmode($cvs->{'mode'});
+ 		unlink($tmpname);
+@@ -691,7 +691,7 @@ while(<CVS>) {
+ 	$self->{'socketo'}->flush();
+ 	$self->{'socketo'}->write("valid-requests\n");
+=20
+de M Mbinary E Checked-in Created Updated Merged Removed\n");
++	$self->{'socketo'}->write("Valid-responses ok error Valid-requests Mo=
+de M Mbinary E F Checked-in Created Updated Merged Removed\n");
+-	$self->{'socketo'}->write("Valid-responses ok error Valid-requests Mo=
+ 	# Trial and error says that this probably is the minimum set
+=20
+ 	$self->{'socketo'}->write("Root $repo\n");
+@@ -190,7 +190,7 @@ sub conn {
++++ b/git-cvsimport-script
+--- a/git-cvsimport-script
+diff --git a/git-cvsimport-script b/git-cvsimport-script
+ If '-v' is specified, the script reports what it is doing.
+ ------
+ OUTPUT
++
++        Pass the timestamp fuzz factor to cvsps.
++-z <fuzz>::
+=20
+ 	Print a short usage message and exit.
+ -h::
+@@ -57,6 +61,9 @@ OPTIONS
+=20
+ 	If you need to pass multiple options, separate them with a comma.
+=20
++	The options '-u' and '-A' are implicit and should not be used here.
+-	The options '-x' and '-A' are implicit and should not be used here.
+ 	Additional options for cvsps.
+ -p <options-for-cvsps>::
+=20
+@@ -44,7 +48,7 @@ OPTIONS
+ 	ensures the working directory and cache remain untouched and will
+ 	Import-only: don't perform a checkout after importing.  This option
+ -i::
++
++        exist, it will be created.  Default is the current directory.
++        The GIT repository to import to.  If the directory doesn't
++-C <target-dir>::
+=20
+ 	are supported.
+ 	currently, only the :local:, :ext: and :pserver: access methods=20
+@@ -29,6 +29,10 @@ OPTIONS
++++ b/Documentation/git-cvsimport-script.txt
+--- a/Documentation/git-cvsimport-script.txt
+-cvsimport-script.txt
+diff --git a/Documentation/git-cvsimport-script.txt b/Documentation/git=
+50452f9c0c2df1f04d83a26266ba704b13861632
+
+ 2 files changed, 10 insertions(+), 3 deletions(-)
+ git-cvsimport-script                   |    4 ++--
+ Documentation/git-cvsimport-script.txt |    9 ++++++++-
+
+---
+Signed-off-by: David K=E5gedal <davidk@lysator.liu.se>
+
+actual flags.
+I also updated the documentation for that script to correspond to
+
+although they were not handled.
+The second was that it was asking the CVS server for "F" messages,
+
+primary revision number.
+The first was that it didn't handle removed files with a multi-digit
+
+from importing a big CVS repository.
+The git-cvsimport-script had a copule of small bugs that prevented me
+
+Original-X-From: git-owner@vger.kernel.org Mon Aug 15 20:24:05 2005
+Cc: "Junio C. Hamano" <junkio@cox.net>
+NNTP-Posting-Date: Mon, 15 Aug 2005 18:24:07 +0000 (UTC)
+X-Complaints-To: usenet@sea.gmane.org
+X-Trace: sea.gmane.org 1124130247 31839 80.91.229.2 (15 Aug 2005 18:24:07 GMT)
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: text/plain; charset=ISO8859-1
+Mime-Version: 1.0
+NNTP-Posting-Host: main.gmane.org
+Approved: news@gmane.org
+Lines: 83
+Date: Mon, 15 Aug 2005 20:18:25 +0200
+Subject: [PATCH] Fixed two bugs in git-cvsimport-script.
+Newsgroups: gmane.comp.version-control.git
+From: =?ISO8859-1?Q?David_K=E5gedal?= <davidk@lysator.liu.se>
+Message-ID: <u5tacjjdpxq.fsf@lysator.liu.se>
+Path: news.gmane.org!not-for-mail
+From nobody Sat Aug 27 23:07:49 2005
+
+GPG-FP  : 9022 65EB 1ECF 3AD1 0BDF  80D8 4807 F894 E062 0EEA
+YOSHIFUJI Hideaki @ USAGI Project  <yoshfuji@linux-ipv6.org>
+-- 
+
+ 	packet_write(sockfd, "%s %s\n", prog, path);
+ 	fd[1] = sockfd;
+ 	fd[0] = sockfd;
++
+-		die("unable to connect (%s)", strerror(errno));
+-	if (connect(sockfd, (void *)&addr, sizeof(addr)) < 0)
+ 		die("unable to create socket (%s)", strerror(errno));
+ 	if (sockfd < 0)
+-	sockfd = socket(PF_INET, SOCK_STREAM, IPPROTO_IP);
+ 
++	freeaddrinfo(ai0);
+-	((struct sockaddr_in *)&addr)->sin_port = htons(port);
+-	lookup_host(host, &addr);
+ 
+ 	}
++		break;
+ 		}
++			continue;
++			sockfd = -1;
++			close(sockfd);
++		if (connect(sockfd, ai->ai_addr, ai->ai_addrlen) < 0) {
++			continue;
++		if (sockfd < 0)
++		sockfd = socket(ai->ai_family, ai->ai_socktype, ai->ai_protocol);
++	for (ai0 = ai; ai; ai = ai->ai_next) {
++
++		die("Unable to look up %s (%s)", host, gai_strerror(gai));
++	if (gai)
++	gai = getaddrinfo(host, port, &hints, &ai);
++
++	hints.ai_protocol = IPPROTO_TCP;
++	hints.ai_socktype = SOCK_STREAM;
++	memset(&hints, 0, sizeof(hints));
++
++		port = colon + 1;
++	if (colon)
++
++	colon = strchr(end, ':');
++		end = host;
++	} else
++			end = host;
++		} else
++			host++;
++			end++;
++			*end = 0;
++		if (end) {
++		end = strchr(host + 1, ']');
++	if (host[0] == '[') {
++
++	int gai;
++	struct addrinfo hints, *ai0, *ai;
++	char *port = STR(DEFAULT_GIT_PORT);
++	char *colon, *end;
++	int sockfd = -1;
+-			port = n;
+-			*colon = 0;
+-		if (colon[1] && !*end) {
+-		unsigned long n = strtoul(colon+1, &end, 0);
+-		char *end;
+-	if (colon) {
+-	colon = strchr(host, ':');
+-
+-	char *colon;
+-	int port = DEFAULT_GIT_PORT, sockfd;
+-	struct sockaddr addr;
+ {
+ static int git_tcp_connect(int fd[2], const char *prog, char *host, char *path)
+ 
++#define STR(s)	STR_(s)
++#define STR_(s)	# s
+-}
+-	freeaddrinfo(res);
+-	*in = *res->ai_addr;
+-		die("Unable to look up %s (%s)", host, gai_strerror(ret));
+-	if (ret)
+-	ret = getaddrinfo(host, NULL, NULL, &res);
+-
+-	int ret;
+-	struct addrinfo *res;
+-{
+-static void lookup_host(const char *host, struct sockaddr *in)
+ 
+ }
+ 	die("I don't handle protocol '%s'", name);
+@@ -96,42 +96,57 @@ static enum protocol get_protocol(const 
++++ b/connect.c
+--- a/connect.c
+diff --git a/connect.c b/connect.c
+
+Signed-of-by: Hideaki YOSHIFUJI <yoshfuji@linux-ipv6.org>
+
+Also supports IPv6.
+Try all addresses for given remote name until it succeeds.
+
+Hello.
+
+NNTP-Posting-Date: Thu, 21 Jul 2005 13:10:34 +0000 (UTC)
+X-Complaints-To: usenet@sea.gmane.org
+X-Trace: sea.gmane.org 1121951434 29350 80.91.229.2 (21 Jul 2005 13:10:34 GMT)
+Content-Transfer-Encoding: 7bit
+Content-Type: Text/Plain; charset=us-ascii
+Mime-Version: 1.0
+NNTP-Posting-Host: main.gmane.org
+Approved: news@gmane.org
+Organization: USAGI/WIDE Project
+Lines: 99
+Date: Thu, 21 Jul 2005 09:10:36 -0400 (EDT)
+--
+1.4.0.g6f2b
+
+From nobody Mon Sep 17 00:00:00 2001
+From: A U Thor <a.u.thor@example.com>
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: [PATCH] another patch
+
+
++content
+@@ -0,0 +1 @@
++++ b/foo
+--- a/foo
+index e69de29..d95f3ad 100644
+diff --git a/foo b/foo
+---
+
+and some content
+
+Date: bogus
+
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: check bogus body header (date)
+From: A U Thor <a.u.thor@example.com>
+From nobody Mon Sep 17 00:00:00 2001
+
++content
+@@ -0,0 +1 @@
++++ b/foo
+--- a/foo
+index e69de29..d95f3ad 100644
+diff --git a/foo b/foo
+---
+  - of stuff
+  - a list
+From: bogosity
+
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: check bogus body header (from)
+From: A U Thor <a.u.thor@example.com>
+From nobody Mon Sep 17 00:00:00 2001
+1.6.4.1
+-- 
+ 		convert_to_utf8(line, charset.buf);
+ 	if (metainfo_charset)
+ 	/* normalize the log message to UTF-8. */
++
++	}
++		return 0;
++		still_looking = 1;
++		fseek(cmitmsg, 0L, SEEK_SET);
++	if (scissors(line)) {
+ 
+ 	}
+ 			return 0;
++		if (still_looking)
++		still_looking = check_header(line, s_hdr_data, 0);
+-		if ((still_looking = check_header(line, s_hdr_data, 0)) != 0)
+ 			return 0;
+ 		if (!line->len)
+ 		strbuf_ltrim(line);
+@@ -723,10 +751,17 @@ static int handle_commit_msg(struct strbuf *line)
+ 	static int still_looking = 1;
+ {
+ static int handle_commit_msg(struct strbuf *line)
++
++}
++	return scissors_dashes_seen == 03;
++	}
++		break;
++		/* everything else --- not scissors */
++		}
++			continue;
++			i += 7;
++		if (i + 7 < len && !memcmp(buf + i, "cut here", 8)) {
++		}
++			continue;
++			i++;
++			scissors_dashes_seen |= 01;
++		if (i + 1 < len && !memcmp(buf + i, ">8", 2)) {
++		}
++			continue;
++			scissors_dashes_seen |= 02;
++		if (buf[i] == '-') {
++			continue;
++		if (isspace(buf[i]))
++	for (i = 0; i < len; i++) {
++
++	const char *buf = line->buf;
++	int scissors_dashes_seen = 0;
++	size_t i, len = line->len;
++{
++static int scissors(const struct strbuf *line)
+ 
+ }
+ 	return 0;
+@@ -712,6 +712,34 @@ static inline int patchbreak(const struct strbuf *line)
++++ b/builtin-mailinfo.c
+--- a/builtin-mailinfo.c
+index b0b5d8f..461c47e 100644
+diff --git a/builtin-mailinfo.c b/builtin-mailinfo.c
+
+ 1 files changed, 36 insertions(+), 1 deletions(-)
+ builtin-mailinfo.c |   37 ++++++++++++++++++++++++++++++++++++-
+---
+Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+everything before it in the message body.
+This teaches mailinfo the scissors -- >8 -- mark; the command ignores
+
+From: Junio C Hamano <gitster@pobox.com>
+Subject: [PATCH] Teach mailinfo to ignore everything before -- >8 -- mark
+
+ - - >8 - - please remove everything above this line - - >8 - -
+ This line is not a scissors mark -- >8 -- but talks about it.
+
+And then we will see the scissors.
+
+Subject: [PATCH] BLAH TWO
+
+in this part of the message.
+discussing related and unrelated things around >8 scissors mark
+In real life, we will see a discussion that inspired this patch
+
+Subject: [PATCH] BLAH ONE
+
+Subject: Why doesn't git-am does not like >8 scissors mark?
+Date: Thu, 20 Aug 2009 17:18:22 -0700
+From: Junio Hamano <junkio@cox.net>
+From nobody Mon Sep 17 00:00:00 2001
+
+Subject: [PATCH] a patch
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+From: <a.u.thor@example.com> (A U Thor)
+From nobody Mon Sep 17 00:00:00 2001
+1.5.6.5
+-- 
+ #. на своей машине: отредактировать /etc/sudoers (команда ``visudo``) примерно следующим образом::
+ #. на машине dinar: добавить свой открытый ssh-ключ в authorized_keys2 пользователя ddev
+ 
++   - python-docutils
+-   - docutils
+    - imagemagick
+    - cython
+    - sox
+@@ -128,7 +128,7 @@
+    - libtool
+    - python-pyrex
+    - dia
++   - texlive-latex-extra
++   - texlive-lang-cyrillic
+-   - textlive-latex-extra
+-   - textlive-lang-cyrillic
+    - latex-make
+    - libusplash-dev
+    - libxv-dev
+@@ -119,8 +119,8 @@
++++ b/howto/build_navy.txt
+--- a/howto/build_navy.txt
+index 3fd3afb..0ee807e 100644
+diff --git a/howto/build_navy.txt b/howto/build_navy.txt
+
+ 1 files changed, 3 insertions(+), 3 deletions(-)
+ howto/build_navy.txt |    6 +++---
+---
+Signed-off-by: Dmitriy Blinov <bda@mnsspb.ru>
+
+python-docutils. В то время как сам rest2web не нужен.
+Действительно, оказалось, что rest2web вытягивает за собой
+
+docutils заменён на python-docutils
+textlive-* исправлены на texlive-*
+
+	=?utf-8?b?0YHQsdC+0YDQutC4?=
+	=?utf-8?b?0LrQtdGC0L7QsiDQvdC10L7QsdGF0L7QtNC40LzRi9GFINC00LvRjyA=?=
+	=?utf-8?b?0JjQt9C80LXQvdGR0L0g0YHQv9C40YHQvtC6INC/0LA=?=
+Subject: [Navy-patches] [PATCH]
+Content-Transfer-Encoding: 8bit
+  charset=utf-8
+Content-Type: text/plain;
+MIME-Version: 1.0
+X-Mailer: git-send-email 1.5.6.5
+Message-Id: <1226501681-24923-1-git-send-email-bda@mnsspb.ru>
+Date: Wed, 12 Nov 2008 17:54:41 +0300
+To: navy-patches@dinar.mns.mnsspb.ru
+From: Dmitriy Blinov <bda@mnsspb.ru>
+From bda@mnsspb.ru Wed Nov 12 17:54:41 2008
+
+--=-=-=--
+
+1.6.0.rc2
+--=20
+ 				goto handle_body_out;
+ 			if (!handle_boundary())
+=20
++				handle_filter(&prev);
++			if (prev.len)
+-				handle_filter(&line);
+-			if (line.len)
+ 			/* flush any leftover */
+ 		if (*content_top && is_multipart_boundary(&line)) {
+ 		/* process any boundary lines */
+@@ -758,8 +758,8 @@ static void handle_body(void)
++++ b/builtin-mailinfo.c
+--- a/builtin-mailinfo.c
+index 3e5fe51..aabfe5c 100644
+diff --git a/builtin-mailinfo.c b/builtin-mailinfo.c
+
+ builtin-mailinfo.c  |    4 ++--
+---
+its second line is here.
+Here comes a commit log message, and
+
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=ISO8859-15
+--=-=-=
+
+Content-Type: multipart/mixed; boundary="=-=-="
+MIME-Version: 1.0
+Subject: [PATCH 3/3 v2] Xyzzy
+From: A U Thor <a.u.thor@example.com>
+Date: Fri, 8 Aug 2008 13:08:37 +0200 (CEST)
+From nobody Fri Aug  8 22:24:03 2008
+
+1.5.6.2.455.g1efb2
+-- 
+ 				}
+ 					return 1;
+ 				if (! handle_header(line, hdr_data[i], 0)) {
++			if (!memcmp("Subject", header[i], 7)) {
+-			if (!memcmp("Subject: ", header[i], 9)) {
+ 		for (i = 0; header[i]; i++) {
+ 	if (!memcmp("[PATCH]", line, 7) && isspace(line[7])) {
+ 		return 1;
+@@ -334,7 +334,7 @@ static int check_header(char *line, unsigned linesize, char **hdr_data, int over
++++ b/builtin-mailinfo.c
+--- a/builtin-mailinfo.c
+index 962aa34..2d1520f 100644
+diff --git a/builtin-mailinfo.c b/builtin-mailinfo.c
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+ builtin-mailinfo.c |    2 +-
+---
+Signed-off-by: Junio C Hamano <gitster@pobox.com>
+Signed-off-by: Lukas Sandström <lukass@etek.chalmers.se>
+
+memcmp("Subject: ", header[i], 7) will never match.
+"Subject: " isn't in the static array "header", and thus
+
+[PATCH] git-mailinfo: Fix getting the subject from the body
+
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset=UTF-8
+MIME-Version: 1.0
+Subject: Re: discussion that lead to this patch
+Date: Thu, 10 Jul 2008 23:41:33 +0200
+From: =?UTF-8?q?Lukas=20Sandstr=C3=B6m?= <lukass@etek.chalmers.se>
+From b9704a518e21158433baa2cc2d591fea687967f6 Mon Sep 17 00:00:00 2001
+ 2. When the environment variable 'GIT_EXTERNAL_DIFF' is set, the
+=20
+=20
++      GIT_DIFF_OPTS=3D-c git-diff-index -p HEAD
+-      GIT_DIFF_OPTS=3D-c git-diff-index -p $(cat .git/HEAD)
+=20
+ prefer context diff:
+ environment variable 'GIT_DIFF_OPTS'.  For example, if you
+@@ -81,7 +81,7 @@ The "diff" formatting options can be customized via the
++++ b/Documentation/diff-format.txt
+--- a/Documentation/diff-format.txt
+index b426a14..97756ec 100644
+diff --git a/Documentation/diff-format.txt b/Documentation/diff-format.txt
+
+Subject: [PATCH] updates=0A=0AThis is to fix diff-format documentation.
+=0A=0AFrom: F U Bar <f.u.bar@example.com>
+
+Content-Transfer-Encoding: Quoted-Printable
+Content-Type: Text/Plain; charset=us-ascii
+Mime-Version: 1.0
+Date: Mon, 17 Sep 2001 00:00:00 +0900
+From: A U Thor <a.u.thor@example.com>
+From nobody Mon Sep 17 00:00:00 2001
+
+Hey you forgot the patch!
+
+>Here is an empty patch from A U Thor.
+Subject: [PATCH] another patch
+From: A U Thor <a.u.thor@example.com>
+
+Subject: re: [PATCH] another patch
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+From: Junio C Hamano <junio@kernel.org>
+From nobody Mon Sep 17 00:00:00 2001
+
+Here is an empty patch from A U Thor.
+From nobody Mon Sep 17 00:00:00 2001
+From: A (zzz)
+      U
+      Thor
+      <a.u.thor@example.com> (Comment)
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: [PATCH] a commit.
++Fri Jun  9 00:44:13 PDT 2006
+-Fri Jun  9 00:44:04 PDT 2006
+@@ -1 +1 @@
++++ b/foo
+--- a/foo
+index 9123cdc..918dcf8 100644
+diff --git a/foo b/foo
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+ foo |    2 +-
+---
+
+Here is a patch from A U Thor.
+
+--
+1.4.0.g6f2b
+
+From nobody Mon Sep 17 00:00:00 2001
+From: A U Thor <a.u.thor@example.com>
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: [PATCH] another patch
++Fri Jun  9 00:44:13 PDT 2006
+-Fri Jun  9 00:44:04 PDT 2006
+@@ -1 +1 @@
++++ b/foo
+--- a/foo
+index 9123cdc..918dcf8 100644
+diff --git a/foo b/foo
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+ foo |    2 +-
+---
+
+Hope this helps.
+
+            
+
+two truly blank and another full of spaces in between.
+Also, there are three blank lines after this paragraph,
+when the message is made into a commit log by stripspace,
+whitespaces at the end of the above line.  They are expected to be squashed
+stripped away here, along with the               		   
+I have included an extra blank line above, but it does not have to be
+
+
+Hopefully this would fix the problem stated there.
+
+Message-Id: <nitpicker.12121212@example.net>
+Subject: foo is too old
+From: Nit Picker <nit.picker@example.net>
+
+message:
+Here is a patch from A U Thor.  This addresses the issue raised in the
+
+--
+1.4.0.g6f2bFrom nobody Mon Sep 17 00:00:00 2001
+From: A (zzz)
+      U
+      Thor
+      <a.u.thor@example.com> (Comment)
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: [PATCH] a commit.
++Fri Jun  9 00:44:13 PDT 2006
+-Fri Jun  9 00:44:04 PDT 2006
+@@ -1 +1 @@
++++ b/foo
+--- a/foo
+index 9123cdc..918dcf8 100644
+diff --git a/foo b/foo
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+ foo |    2 +-
+---
+
+Here is a patch from A U Thor.
+
+--
+1.4.0.g6f2b
+
+From nobody Mon Sep 17 00:00:00 2001
+From: A U Thor <a.u.thor@example.com>
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: [PATCH] another patch
++Fri Jun  9 00:44:13 PDT 2006
+-Fri Jun  9 00:44:04 PDT 2006
+@@ -1 +1 @@
++++ b/foo
+--- a/foo
+index 9123cdc..918dcf8 100644
+diff --git a/foo b/foo
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+ foo |    2 +-
+---
+
+Hope this helps.
+
+            
+
+two truly blank and another full of spaces in between.
+Also, there are three blank lines after this paragraph,
+when the message is made into a commit log by stripspace,
+whitespaces at the end of the above line.  They are expected to be squashed
+stripped away here, along with the               		   
+I have included an extra blank line above, but it does not have to be
+
+
+Hopefully this would fix the problem stated there.
+
+Message-Id: <nitpicker.12121212@example.net>
+Subject: foo is too old
+From: Nit Picker <nit.picker@example.net>
+
+message:
+Here is a patch from A U Thor.  This addresses the issue raised in the
+
+--
+1.4.0.g6f2b
+
+From nobody Mon Sep 17 00:00:00 2001
+From: Junio C Hamano <junio@kernel.org>
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: re: [PATCH] another patch
++Fri Jun  9 00:44:13 PDT 2006
+-Fri Jun  9 00:44:04 PDT 2006
+@@ -1 +1 @@
++++ b/foo
+--- a/foo
+index 9123cdc..918dcf8 100644
+diff --git a/foo b/foo
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+ foo |    2 +-
+---
+
+Hopefully this would fix the problem stated there.
+
+Message-Id: <nitpicker.12121212@example.net>
+Subject: foo is too old
+From: Nit Picker <nit.picker@example.net>
+
+message:
+Here is a patch from A U Thor.  This addresses the issue raised in the
+
+Subject: [PATCH] third patch
+From: A U Thor <a.u.thor@example.com>
+
+--
+1.4.0.g6f2b
+
+From nobody Sat Aug 27 23:07:49 2005
+Path: news.gmane.org!not-for-mail
+Message-ID: <20050721.091036.01119516.yoshfuji@linux-ipv6.org>
+From: YOSHIFUJI Hideaki / =?ISO-2022-JP?B?GyRCNUhGIzFRTEAbKEI=?= 
+	<yoshfuji@linux-ipv6.org>
+Newsgroups: gmane.comp.version-control.git
+Subject: [PATCH 1/2] GIT: Try all addresses for given remote name
++Fri Jun  9 00:44:13 PDT 2006
+-Fri Jun  9 00:44:04 PDT 2006
+@@ -1 +1 @@
++++ b/foo
+--- a/foo
+index 9123cdc..918dcf8 100644
+diff --git a/foo b/foo
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+ foo |    2 +-
+---
+
+Here is a patch from A U Thor.
+
+Subject: [PATCH] a commit.
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+ <Pine.LNX.4.640.0050@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0049@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0048@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0047@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0046@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0045@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0044@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0043@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0042@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0041@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0040@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0039@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0038@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0037@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0036@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0035@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0034@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0033@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0032@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0031@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0030@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0029@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0028@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0027@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0026@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0025@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0024@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0023@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0022@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0021@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0020@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0019@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0018@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0017@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0016@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0015@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0014@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0013@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0012@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0011@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0010@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0009@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0008@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0007@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0006@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0005@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0004@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0003@woody.linux-foundation.org>
+ <Pine.LNX.4.640.0002@woody.linux-foundation.org>
+References: <Pine.LNX.4.640.0001@woody.linux-foundation.org>
+From: A U Thor <a.u.thor@example.com>
+From nobody Mon Sep 17 00:00:00 2001
+
+More majordomo info at  http://vger.kernel.org/majordomo-info.html
+the body of a message to majordomo@vger.kernel.org
+To unsubscribe from this list: send the line "unsubscribe git" in
+-
+David K=E5gedal
+--=20
+
+ 		push(@old,$fn);
+ 		$fn =3D~ s#^/+##;
+ 		my $fn =3D $1;
+\(DEAD\)\s*$/) {
++	} elsif($state =3D=3D 9 and /^\s+(\S+):\d+(?:\.\d+)+->(\d+(?:\.\d+)+)=
+DEAD\)\s*$/) {
+-	} elsif($state =3D=3D 9 and /^\s+(\S+):\d(?:\.\d+)+->(\d(?:\.\d+)+)\(=
+ 		push(@new,[$mode, $sha, $fn]); # may be resurrected!
+ 		my $mode =3D pmode($cvs->{'mode'});
+ 		unlink($tmpname);
+@@ -691,7 +691,7 @@ while(<CVS>) {
+ 	$self->{'socketo'}->flush();
+ 	$self->{'socketo'}->write("valid-requests\n");
+=20
+de M Mbinary E Checked-in Created Updated Merged Removed\n");
++	$self->{'socketo'}->write("Valid-responses ok error Valid-requests Mo=
+de M Mbinary E F Checked-in Created Updated Merged Removed\n");
+-	$self->{'socketo'}->write("Valid-responses ok error Valid-requests Mo=
+ 	# Trial and error says that this probably is the minimum set
+=20
+ 	$self->{'socketo'}->write("Root $repo\n");
+@@ -190,7 +190,7 @@ sub conn {
++++ b/git-cvsimport-script
+--- a/git-cvsimport-script
+diff --git a/git-cvsimport-script b/git-cvsimport-script
+ If '-v' is specified, the script reports what it is doing.
+ ------
+ OUTPUT
++
++        Pass the timestamp fuzz factor to cvsps.
++-z <fuzz>::
+=20
+ 	Print a short usage message and exit.
+ -h::
+@@ -57,6 +61,9 @@ OPTIONS
+=20
+ 	If you need to pass multiple options, separate them with a comma.
+=20
++	The options '-u' and '-A' are implicit and should not be used here.
+-	The options '-x' and '-A' are implicit and should not be used here.
+ 	Additional options for cvsps.
+ -p <options-for-cvsps>::
+=20
+@@ -44,7 +48,7 @@ OPTIONS
+ 	ensures the working directory and cache remain untouched and will
+ 	Import-only: don't perform a checkout after importing.  This option
+ -i::
++
++        exist, it will be created.  Default is the current directory.
++        The GIT repository to import to.  If the directory doesn't
++-C <target-dir>::
+=20
+ 	are supported.
+ 	currently, only the :local:, :ext: and :pserver: access methods=20
+@@ -29,6 +29,10 @@ OPTIONS
++++ b/Documentation/git-cvsimport-script.txt
+--- a/Documentation/git-cvsimport-script.txt
+-cvsimport-script.txt
+diff --git a/Documentation/git-cvsimport-script.txt b/Documentation/git=
+50452f9c0c2df1f04d83a26266ba704b13861632
+
+ 2 files changed, 10 insertions(+), 3 deletions(-)
+ git-cvsimport-script                   |    4 ++--
+ Documentation/git-cvsimport-script.txt |    9 ++++++++-
+
+---
+Signed-off-by: David K=E5gedal <davidk@lysator.liu.se>
+
+actual flags.
+I also updated the documentation for that script to correspond to
+
+although they were not handled.
+The second was that it was asking the CVS server for "F" messages,
+
+primary revision number.
+The first was that it didn't handle removed files with a multi-digit
+
+from importing a big CVS repository.
+The git-cvsimport-script had a copule of small bugs that prevented me
+
+Original-X-From: git-owner@vger.kernel.org Mon Aug 15 20:24:05 2005
+Cc: "Junio C. Hamano" <junkio@cox.net>
+NNTP-Posting-Date: Mon, 15 Aug 2005 18:24:07 +0000 (UTC)
+X-Complaints-To: usenet@sea.gmane.org
+X-Trace: sea.gmane.org 1124130247 31839 80.91.229.2 (15 Aug 2005 18:24:07 GMT)
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Type: text/plain; charset=ISO8859-1
+Mime-Version: 1.0
+NNTP-Posting-Host: main.gmane.org
+Approved: news@gmane.org
+Lines: 83
+Date: Mon, 15 Aug 2005 20:18:25 +0200
+Subject: [PATCH] Fixed two bugs in git-cvsimport-script.
+Newsgroups: gmane.comp.version-control.git
+From: =?ISO8859-1?Q?David_K=E5gedal?= <davidk@lysator.liu.se>
+Message-ID: <u5tacjjdpxq.fsf@lysator.liu.se>
+Path: news.gmane.org!not-for-mail
+From nobody Sat Aug 27 23:07:49 2005
+
+GPG-FP  : 9022 65EB 1ECF 3AD1 0BDF  80D8 4807 F894 E062 0EEA
+YOSHIFUJI Hideaki @ USAGI Project  <yoshfuji@linux-ipv6.org>
+-- 
+
+ 	packet_write(sockfd, "%s %s\n", prog, path);
+ 	fd[1] = sockfd;
+ 	fd[0] = sockfd;
++
+-		die("unable to connect (%s)", strerror(errno));
+-	if (connect(sockfd, (void *)&addr, sizeof(addr)) < 0)
+ 		die("unable to create socket (%s)", strerror(errno));
+ 	if (sockfd < 0)
+-	sockfd = socket(PF_INET, SOCK_STREAM, IPPROTO_IP);
+ 
++	freeaddrinfo(ai0);
+-	((struct sockaddr_in *)&addr)->sin_port = htons(port);
+-	lookup_host(host, &addr);
+ 
+ 	}
++		break;
+ 		}
++			continue;
++			sockfd = -1;
++			close(sockfd);
++		if (connect(sockfd, ai->ai_addr, ai->ai_addrlen) < 0) {
++			continue;
++		if (sockfd < 0)
++		sockfd = socket(ai->ai_family, ai->ai_socktype, ai->ai_protocol);
++	for (ai0 = ai; ai; ai = ai->ai_next) {
++
++		die("Unable to look up %s (%s)", host, gai_strerror(gai));
++	if (gai)
++	gai = getaddrinfo(host, port, &hints, &ai);
++
++	hints.ai_protocol = IPPROTO_TCP;
++	hints.ai_socktype = SOCK_STREAM;
++	memset(&hints, 0, sizeof(hints));
++
++		port = colon + 1;
++	if (colon)
++
++	colon = strchr(end, ':');
++		end = host;
++	} else
++			end = host;
++		} else
++			host++;
++			end++;
++			*end = 0;
++		if (end) {
++		end = strchr(host + 1, ']');
++	if (host[0] == '[') {
++
++	int gai;
++	struct addrinfo hints, *ai0, *ai;
++	char *port = STR(DEFAULT_GIT_PORT);
++	char *colon, *end;
++	int sockfd = -1;
+-			port = n;
+-			*colon = 0;
+-		if (colon[1] && !*end) {
+-		unsigned long n = strtoul(colon+1, &end, 0);
+-		char *end;
+-	if (colon) {
+-	colon = strchr(host, ':');
+-
+-	char *colon;
+-	int port = DEFAULT_GIT_PORT, sockfd;
+-	struct sockaddr addr;
+ {
+ static int git_tcp_connect(int fd[2], const char *prog, char *host, char *path)
+ 
++#define STR(s)	STR_(s)
++#define STR_(s)	# s
+-}
+-	freeaddrinfo(res);
+-	*in = *res->ai_addr;
+-		die("Unable to look up %s (%s)", host, gai_strerror(ret));
+-	if (ret)
+-	ret = getaddrinfo(host, NULL, NULL, &res);
+-
+-	int ret;
+-	struct addrinfo *res;
+-{
+-static void lookup_host(const char *host, struct sockaddr *in)
+ 
+ }
+ 	die("I don't handle protocol '%s'", name);
+@@ -96,42 +96,57 @@ static enum protocol get_protocol(const 
++++ b/connect.c
+--- a/connect.c
+diff --git a/connect.c b/connect.c
+
+Signed-of-by: Hideaki YOSHIFUJI <yoshfuji@linux-ipv6.org>
+
+Also supports IPv6.
+Try all addresses for given remote name until it succeeds.
+
+Hello.
+
+NNTP-Posting-Date: Thu, 21 Jul 2005 13:10:34 +0000 (UTC)
+X-Complaints-To: usenet@sea.gmane.org
+X-Trace: sea.gmane.org 1121951434 29350 80.91.229.2 (21 Jul 2005 13:10:34 GMT)
+Content-Transfer-Encoding: 7bit
+Content-Type: Text/Plain; charset=us-ascii
+Mime-Version: 1.0
+NNTP-Posting-Host: main.gmane.org
+Approved: news@gmane.org
+Organization: USAGI/WIDE Project
+Lines: 99
+Date: Thu, 21 Jul 2005 09:10:36 -0400 (EDT)
+--
+1.4.0.g6f2b
+
+From nobody Mon Sep 17 00:00:00 2001
+From: A U Thor <a.u.thor@example.com>
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: [PATCH] another patch
+
+
++content
+@@ -0,0 +1 @@
++++ b/foo
+--- a/foo
+index e69de29..d95f3ad 100644
+diff --git a/foo b/foo
+---
+
+and some content
+
+Date: bogus
+
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: check bogus body header (date)
+From: A U Thor <a.u.thor@example.com>
+From nobody Mon Sep 17 00:00:00 2001
+
++content
+@@ -0,0 +1 @@
++++ b/foo
+--- a/foo
+index e69de29..d95f3ad 100644
+diff --git a/foo b/foo
+---
+  - of stuff
+  - a list
+From: bogosity
+
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: check bogus body header (from)
+From: A U Thor <a.u.thor@example.com>
+From nobody Mon Sep 17 00:00:00 2001
+1.6.4.1
+-- 
+ 		convert_to_utf8(line, charset.buf);
+ 	if (metainfo_charset)
+ 	/* normalize the log message to UTF-8. */
++
++	}
++		return 0;
++		still_looking = 1;
++		fseek(cmitmsg, 0L, SEEK_SET);
++	if (scissors(line)) {
+ 
+ 	}
+ 			return 0;
++		if (still_looking)
++		still_looking = check_header(line, s_hdr_data, 0);
+-		if ((still_looking = check_header(line, s_hdr_data, 0)) != 0)
+ 			return 0;
+ 		if (!line->len)
+ 		strbuf_ltrim(line);
+@@ -723,10 +751,17 @@ static int handle_commit_msg(struct strbuf *line)
+ 	static int still_looking = 1;
+ {
+ static int handle_commit_msg(struct strbuf *line)
++
++}
++	return scissors_dashes_seen == 03;
++	}
++		break;
++		/* everything else --- not scissors */
++		}
++			continue;
++			i += 7;
++		if (i + 7 < len && !memcmp(buf + i, "cut here", 8)) {
++		}
++			continue;
++			i++;
++			scissors_dashes_seen |= 01;
++		if (i + 1 < len && !memcmp(buf + i, ">8", 2)) {
++		}
++			continue;
++			scissors_dashes_seen |= 02;
++		if (buf[i] == '-') {
++			continue;
++		if (isspace(buf[i]))
++	for (i = 0; i < len; i++) {
++
++	const char *buf = line->buf;
++	int scissors_dashes_seen = 0;
++	size_t i, len = line->len;
++{
++static int scissors(const struct strbuf *line)
+ 
+ }
+ 	return 0;
+@@ -712,6 +712,34 @@ static inline int patchbreak(const struct strbuf *line)
++++ b/builtin-mailinfo.c
+--- a/builtin-mailinfo.c
+index b0b5d8f..461c47e 100644
+diff --git a/builtin-mailinfo.c b/builtin-mailinfo.c
+
+ 1 files changed, 36 insertions(+), 1 deletions(-)
+ builtin-mailinfo.c |   37 ++++++++++++++++++++++++++++++++++++-
+---
+Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+everything before it in the message body.
+This teaches mailinfo the scissors -- >8 -- mark; the command ignores
+
+From: Junio C Hamano <gitster@pobox.com>
+Subject: [PATCH] Teach mailinfo to ignore everything before -- >8 -- mark
+
+ - - >8 - - please remove everything above this line - - >8 - -
+ This line is not a scissors mark -- >8 -- but talks about it.
+
+And then we will see the scissors.
+
+Subject: [PATCH] BLAH TWO
+
+in this part of the message.
+discussing related and unrelated things around >8 scissors mark
+In real life, we will see a discussion that inspired this patch
+
+Subject: [PATCH] BLAH ONE
+
+Subject: Why doesn't git-am does not like >8 scissors mark?
+Date: Thu, 20 Aug 2009 17:18:22 -0700
+From: Junio Hamano <junkio@cox.net>
+From nobody Mon Sep 17 00:00:00 2001
+
+Subject: [PATCH] a patch
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+From: <a.u.thor@example.com> (A U Thor)
+From nobody Mon Sep 17 00:00:00 2001
+1.5.6.5
+-- 
+ #. на своей машине: отредактировать /etc/sudoers (команда ``visudo``) примерно следующим образом::
+ #. на машине dinar: добавить свой открытый ssh-ключ в authorized_keys2 пользователя ddev
+ 
++   - python-docutils
+-   - docutils
+    - imagemagick
+    - cython
+    - sox
+@@ -128,7 +128,7 @@
+    - libtool
+    - python-pyrex
+    - dia
++   - texlive-latex-extra
++   - texlive-lang-cyrillic
+-   - textlive-latex-extra
+-   - textlive-lang-cyrillic
+    - latex-make
+    - libusplash-dev
+    - libxv-dev
+@@ -119,8 +119,8 @@
++++ b/howto/build_navy.txt
+--- a/howto/build_navy.txt
+index 3fd3afb..0ee807e 100644
+diff --git a/howto/build_navy.txt b/howto/build_navy.txt
+
+ 1 files changed, 3 insertions(+), 3 deletions(-)
+ howto/build_navy.txt |    6 +++---
+---
+Signed-off-by: Dmitriy Blinov <bda@mnsspb.ru>
+
+python-docutils. В то время как сам rest2web не нужен.
+Действительно, оказалось, что rest2web вытягивает за собой
+
+docutils заменён на python-docutils
+textlive-* исправлены на texlive-*
+
+	=?utf-8?b?0YHQsdC+0YDQutC4?=
+	=?utf-8?b?0LrQtdGC0L7QsiDQvdC10L7QsdGF0L7QtNC40LzRi9GFINC00LvRjyA=?=
+	=?utf-8?b?0JjQt9C80LXQvdGR0L0g0YHQv9C40YHQvtC6INC/0LA=?=
+Subject: [Navy-patches] [PATCH]
+Content-Transfer-Encoding: 8bit
+  charset=utf-8
+Content-Type: text/plain;
+MIME-Version: 1.0
+X-Mailer: git-send-email 1.5.6.5
+Message-Id: <1226501681-24923-1-git-send-email-bda@mnsspb.ru>
+Date: Wed, 12 Nov 2008 17:54:41 +0300
+To: navy-patches@dinar.mns.mnsspb.ru
+From: Dmitriy Blinov <bda@mnsspb.ru>
+From bda@mnsspb.ru Wed Nov 12 17:54:41 2008
+
+--=-=-=--
+
+1.6.0.rc2
+--=20
+ 				goto handle_body_out;
+ 			if (!handle_boundary())
+=20
++				handle_filter(&prev);
++			if (prev.len)
+-				handle_filter(&line);
+-			if (line.len)
+ 			/* flush any leftover */
+ 		if (*content_top && is_multipart_boundary(&line)) {
+ 		/* process any boundary lines */
+@@ -758,8 +758,8 @@ static void handle_body(void)
++++ b/builtin-mailinfo.c
+--- a/builtin-mailinfo.c
+index 3e5fe51..aabfe5c 100644
+diff --git a/builtin-mailinfo.c b/builtin-mailinfo.c
+
+ builtin-mailinfo.c  |    4 ++--
+---
+its second line is here.
+Here comes a commit log message, and
+
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=ISO8859-15
+--=-=-=
+
+Content-Type: multipart/mixed; boundary="=-=-="
+MIME-Version: 1.0
+Subject: [PATCH 3/3 v2] Xyzzy
+From: A U Thor <a.u.thor@example.com>
+Date: Fri, 8 Aug 2008 13:08:37 +0200 (CEST)
+From nobody Fri Aug  8 22:24:03 2008
+
+1.5.6.2.455.g1efb2
+-- 
+ 				}
+ 					return 1;
+ 				if (! handle_header(line, hdr_data[i], 0)) {
++			if (!memcmp("Subject", header[i], 7)) {
+-			if (!memcmp("Subject: ", header[i], 9)) {
+ 		for (i = 0; header[i]; i++) {
+ 	if (!memcmp("[PATCH]", line, 7) && isspace(line[7])) {
+ 		return 1;
+@@ -334,7 +334,7 @@ static int check_header(char *line, unsigned linesize, char **hdr_data, int over
++++ b/builtin-mailinfo.c
+--- a/builtin-mailinfo.c
+index 962aa34..2d1520f 100644
+diff --git a/builtin-mailinfo.c b/builtin-mailinfo.c
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+ builtin-mailinfo.c |    2 +-
+---
+Signed-off-by: Junio C Hamano <gitster@pobox.com>
+Signed-off-by: Lukas Sandström <lukass@etek.chalmers.se>
+
+memcmp("Subject: ", header[i], 7) will never match.
+"Subject: " isn't in the static array "header", and thus
+
+[PATCH] git-mailinfo: Fix getting the subject from the body
+
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset=UTF-8
+MIME-Version: 1.0
+Subject: Re: discussion that lead to this patch
+Date: Thu, 10 Jul 2008 23:41:33 +0200
+From: =?UTF-8?q?Lukas=20Sandstr=C3=B6m?= <lukass@etek.chalmers.se>
+From b9704a518e21158433baa2cc2d591fea687967f6 Mon Sep 17 00:00:00 2001
+ 2. When the environment variable 'GIT_EXTERNAL_DIFF' is set, the
+=20
+=20
++      GIT_DIFF_OPTS=3D-c git-diff-index -p HEAD
+-      GIT_DIFF_OPTS=3D-c git-diff-index -p $(cat .git/HEAD)
+=20
+ prefer context diff:
+ environment variable 'GIT_DIFF_OPTS'.  For example, if you
+@@ -81,7 +81,7 @@ The "diff" formatting options can be customized via the
++++ b/Documentation/diff-format.txt
+--- a/Documentation/diff-format.txt
+index b426a14..97756ec 100644
+diff --git a/Documentation/diff-format.txt b/Documentation/diff-format.txt
+
+Subject: [PATCH] updates=0A=0AThis is to fix diff-format documentation.
+=0A=0AFrom: F U Bar <f.u.bar@example.com>
+
+Content-Transfer-Encoding: Quoted-Printable
+Content-Type: Text/Plain; charset=us-ascii
+Mime-Version: 1.0
+Date: Mon, 17 Sep 2001 00:00:00 +0900
+From: A U Thor <a.u.thor@example.com>
+From nobody Mon Sep 17 00:00:00 2001
+
+Hey you forgot the patch!
+
+>Here is an empty patch from A U Thor.
+Subject: [PATCH] another patch
+From: A U Thor <a.u.thor@example.com>
+
+Subject: re: [PATCH] another patch
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+From: Junio C Hamano <junio@kernel.org>
+From nobody Mon Sep 17 00:00:00 2001
+
+Here is an empty patch from A U Thor.
+From nobody Mon Sep 17 00:00:00 2001
+From: A (zzz)
+      U
+      Thor
+      <a.u.thor@example.com> (Comment)
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: [PATCH] a commit.
++Fri Jun  9 00:44:13 PDT 2006
+-Fri Jun  9 00:44:04 PDT 2006
+@@ -1 +1 @@
++++ b/foo
+--- a/foo
+index 9123cdc..918dcf8 100644
+diff --git a/foo b/foo
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+ foo |    2 +-
+---
+
+Here is a patch from A U Thor.
+
+--
+1.4.0.g6f2b
+
+From nobody Mon Sep 17 00:00:00 2001
+From: A U Thor <a.u.thor@example.com>
+Date: Fri, 9 Jun 2006 00:44:16 -0700
+Subject: [PATCH] another patch
++Fri Jun  9 00:44:13 PDT 2006
+-Fri Jun  9 00:44:04 PDT 2006
+@@ -1 +1 @@
++++ b/foo
+--- a/foo
+index 9123cdc..918dcf8 100644
+diff --git a/foo b/foo
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+ foo |    2 +-
+---
+
+Hope this helps.
+
+            
+
+two truly blank and another full of spaces in between.
+Also, there are three blank lines after this paragraph,
+when the message is made into a commit log by stripspace,
+whitespaces at the end of the above line.  They are expected to be squashed
+stripped away here, along with the               		   
+I have included an extra blank line above, but it does not have to be
+
+
+Hopefully this would fix the problem stated there.
+
+Message-Id: <nitpicker.12121212@example.net>
+Subject: foo is too old
+From: Nit Picker <nit.picker@example.net>
+
+message:
+Here is a patch from A U Thor.  This addresses the issue raised in the
+
+--
+1.4.0.g6f2b
