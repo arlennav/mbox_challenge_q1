@@ -23,8 +23,8 @@ mbox.ipynb
 
 # The script does:
 1.	Reads the large mbox file asynchronously (from \Resources\mbox\mobox_filename).
-2.	Splits by SPLIT_SIGNATURE into separate email files.
-3.	Reads each individual email file asynchronously.
+2.	Splits by SPLIT_SIGNATURE into separate email files (\Resources\Split).
+3.	Reads each individual email file asynchronously (from \Resources\Split).
 4.	Separates email header and message body.
 5.	Reverses message body and adds email signature.
 6.	Merge email header and message body.
