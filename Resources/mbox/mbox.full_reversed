@@ -19,7 +19,7 @@ diff --git a/foo b/foo
 
 Here is a patch from A U Thor.
 
---
+-- 
 1.4.0.g6f2b
 
 From nobody Mon Sep 17 00:00:00 2001
@@ -59,7 +59,7 @@ From: Nit Picker <nit.picker@example.net>
 message:
 Here is a patch from A U Thor.  This addresses the issue raised in the
 
---
+-- 
 1.4.0.g6f2b
 
 From nobody Mon Sep 17 00:00:00 2001
@@ -90,7 +90,7 @@ Here is a patch from A U Thor.  This addresses the issue raised in the
 Subject: [PATCH] third patch
 From: A U Thor <a.u.thor@example.com>
 
---
+-- 
 1.4.0.g6f2b
 
 From nobody Sat Aug 27 23:07:49 2005
@@ -386,7 +386,7 @@ Approved: news@gmane.org
 Organization: USAGI/WIDE Project
 Lines: 99
 Date: Thu, 21 Jul 2005 09:10:36 -0400 (EDT)
---
+-- 
 1.4.0.g6f2b
 
 From nobody Mon Sep 17 00:00:00 2001
