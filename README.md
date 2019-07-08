@@ -18,8 +18,11 @@ The Asynchronous I/O feature enhances performance by allowing applications to ov
 
 ![alt text](https://github.com/arlennav/Asyncio/blob/master/Asyncio.PNG) 
 
-# Main python file
+# Main python file (Jupyter notebook)
 mbox.ipynb
+
+# Main class file
+mboxCore.py
 
 # The script does:
 1.	Reads the large mbox file asynchronously (from \Resources\mbox\mobox_filename).
